@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Кластеризация</title>
+</head>
+
+
+
+    <div class="wrapper" id="wrapper">
+        <div class="toolbar">
+            <input type="button" class="button" id="add_point" value="Добавить точки">
+            <input type="button" class="button" id="remove_point" value="Удалить точки">
+            <input type="button" class="button" id="show_old_points" value="Сделать точки чёрными">
+            <input type="button" class="button" id="clear" value="Сбросить всё">
+            <div id="button-wrapper">
+                <input type="number" id="getClusters" min="1" max="27" step="1" value="3">
+                <input type="button" id="kMeans" value="Запуск метода k-means">
+            </div>
+            <input type="button" class="button" id="DBSCAN" value="Запуск метода DBSCAN">
+        </div>
+
+        <canvas id="canvas"></canvas>
+    </div>
+    <script type='module' src="./main.js "></script>
+    </div>
+</body>
+
+</html>

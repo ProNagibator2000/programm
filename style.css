@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 100px;
+    background-color: #33bf24;
+}
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>div p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: #ffff;
+}
+
+header>.flex-wrapper>.reference>.active>a {
+    color: black;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+    width: 78px;
+    margin-top: 4px;
+}
+
+#left_logo {
+    margin-left: 28px;
+}
+
+#right_logo {
+    margin-right: 28px;
+}
+
+#canvas {
+    background-color: rgb(35, 35, 74);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.toolbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+}
+
+input{
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #247ABF;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 5px auto 5px auto;
+    text-align: center;
+}
+
+.button {
+    width: 300px;
+    height: 50px;
+}
+
+#getClusters {
+    width: 50px;
+    height: 50px;
+}
+
+#kMeans {
+    width: 240px;
+    height: 50px;
+}
+
+#clear{
+    margin-bottom: 30px;
+}
+
+#button-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
